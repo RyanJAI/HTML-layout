@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Grail Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Holy Grail Layout</h1>
+        <p>
+            The header uses static positioning, which is the default positioning
+            for an HTML element. Since there are no top, right, bottom, or left
+            displacement properties being used, the header stays in its normal
+            position at the top of the page.
+        </p>
+    </header>
+
+    <nav>
+        <p>
+            The navigation bar uses relative positioning. Relative positioning
+            keeps the element in the normal document flow, but the top property
+            moves it 10 pixels down from where it would normally be located.
+        </p>
+    </nav>
+
+    <main>
+
+        <article>
+            <h2>Article</h2>
+            <p>
+                The article uses relative positioning. The top property moves
+                the article 20 pixels down from its normal location, while the
+                left property moves it 10 pixels to the right. Its original
+                space in the document is still kept because relative
+                positioning does not remove an element from the normal flow.
+            </p>
+        </article>
+
+        <aside>
+            <h2>Aside</h2>
+            <p>
+                The aside uses absolute positioning. Since the main element is
+                positioned relative, the aside can be positioned inside it.
+                The top property places it 20 pixels from the top of the main
+                area, while the right property places it 10 pixels from the
+                right side.
+            </p>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>
+            The footer uses relative positioning. The top property moves the
+            footer 20 pixels down from where it would normally appear. Since
+            relative positioning is being used, its original space in the
+            normal document flow is still preserved.
+        </p>
+    </footer>
+
+</body>
+
+</html>
