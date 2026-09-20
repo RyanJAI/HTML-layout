@@ -1,0 +1,77 @@
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header uses the default static positioning */
+header {
+    background-color: #5b8e7d;
+    border: 3px solid #2f5d50;
+    padding: 15px;
+    height: 110px;
+}
+
+/* Nav uses relative positioning */
+nav {
+    position: relative;
+    top: 10px;
+
+    background-color: #8c5e58;
+    padding: 12px;
+    height: 60px;
+}
+
+/* Main is relative so the aside can be positioned inside it */
+main {
+    position: relative;
+    height: 350px;
+    margin-top: 10px;
+}
+
+/* Article uses relative positioning */
+article {
+    position: relative;
+    top: 20px;
+    left: 10px;
+
+    width: 55%;
+    height: 280px;
+    background-color: #d4a373;
+    border: 3px solid #9c6644;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* Aside uses absolute positioning */
+aside {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+
+    width: 35%;
+    height: 280px;
+    background-color: #ccd5ae;
+    border: 3px solid #87986a;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* Footer uses relative positioning */
+footer {
+    position: relative;
+    top: 20px;
+
+    background-color: #6d6875;
+    padding: 15px;
+    min-height: 70px;
+}
+
+h1,
+h2 {
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.5;
+}
